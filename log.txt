@@ -1,0 +1,1773 @@
+defaultdict(<class 'list'>, {'setUp': [['super.setUp()', 'lookup(RepositorySystem.class)']], 'tearDown': [['super.tearDown()']], 'testCacheKey': [['repositorySystem.createArtifact("testGroup","testArtifact","1.2.3","jar")', 'repositorySystem.createDefaultLocalRepository()', 'repositorySystem.createDefaultRemoteRepository()', 'a1.setDependencyFilter(newExcludesArtifactFilter(Arrays.asList("foo")))', 'Arrays.asList("foo")', 'repositorySystem.createArtifact("testGroup","testArtifact","1.2.3","jar")', 'repositorySystem.createDefaultLocalRepository()', 'repositorySystem.createDefaultRemoteRepository()', 'a2.setDependencyFilter(newExcludesArtifactFilter(Arrays.asList("foo")))', 'Arrays.asList("foo")', 'Collections.singletonList(rr1)', 'Collections.singletonList(rr2)', 'k1.hashCode()', 'k2.hashCode()']]})
+[]
+defaultdict(<class 'list'>, {'testShouldAppendRecessivePluginGroupIds': [['dominant.addPluginGroup("org.apache.maven.plugins")', 'dominant.addPluginGroup("org.codehaus.modello")', 'recessive.addPluginGroup("org.codehaus.plexus")', 'SettingsUtils.merge(dominant,recessive,Settings.GLOBAL_LEVEL)', 'dominant.getPluginGroups()', 'pluginGroups.size()', 'pluginGroups.get(0)', 'pluginGroups.get(1)', 'pluginGroups.get(2)']], 'testRoundTripProfiles': [['p.setId("id"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'a.setActiveByDefault(entropy.nextBoolean())', 'entropy.nextBoolean()', 'a.setJdk("jdk"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'af.setExists("exists"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'af.setMissing("missing"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'a.setFile(af)', 'ap.setName("name"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'ap.setValue("value"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'a.setProperty(ap)', 'ao.setArch("arch"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'ao.setFamily("family"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'ao.setName("name"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'ao.setVersion("version"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'a.setOs(ao)', 'p.setActivation(a)', 'entropy.nextInt(10)', 'props.setProperty("name"+Long.toHexString(entropy.nextLong()),"value"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'p.setProperties(props)', 'entropy.nextInt(3)', 'r.setId("id"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'r.setName("name"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'r.setUrl("url"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'repos.add(r)', 'p.setRepositories(repos)', 'entropy.nextInt(3)', 'r.setId("id"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'r.setName("name"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'r.setUrl("url"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'repos.add(r)', 'p.setPluginRepositories(repos)', 'SettingsUtils.convertToSettingsProfile(SettingsUtils.convertFromSettingsProfile(p))', 'SettingsUtils.convertFromSettingsProfile(p)', 'p.getId()', 'clone.getId()', 'p.getActivation()', 'p.getActivation().getJdk()', 'clone.getActivation()', 'clone.getActivation().getJdk()', 'p.getActivation()', 'p.getActivation().getFile()', 'p.getActivation().getFile().getExists()', 'clone.getActivation()', 'clone.getActivation().getFile()', 'clone.getActivation().getFile().getExists()', 'p.getActivation()', 'p.getActivation().getFile()', 'p.getActivation().getFile().getMissing()', 'clone.getActivation()', 'clone.getActivation().getFile()', 'clone.getActivation().getFile().getMissing()', 'p.getActivation()', 'p.getActivation().getProperty()', 'p.getActivation().getProperty().getName()', 'clone.getActivation()', 'clone.getActivation().getProperty()', 'clone.getActivation().getProperty().getName()', 'p.getActivation()', 'p.getActivation().getProperty()', 'p.getActivation().getProperty().getValue()', 'clone.getActivation()', 'clone.getActivation().getProperty()', 'clone.getActivation().getProperty().getValue()', 'p.getActivation()', 'p.getActivation().getOs()', 'p.getActivation().getOs().getArch()', 'clone.getActivation()', 'clone.getActivation().getOs()', 'clone.getActivation().getOs().getArch()', 'p.getActivation()', 'p.getActivation().getOs()', 'p.getActivation().getOs().getFamily()', 'clone.getActivation()', 'clone.getActivation().getOs()', 'clone.getActivation().getOs().getFamily()', 'p.getActivation()', 'p.getActivation().getOs()', 'p.getActivation().getOs().getName()', 'clone.getActivation()', 'clone.getActivation().getOs()', 'clone.getActivation().getOs().getName()', 'p.getActivation()', 'p.getActivation().getOs()', 'p.getActivation().getOs().getVersion()', 'clone.getActivation()', 'clone.getActivation().getOs()', 'clone.getActivation().getOs().getVersion()', 'p.getProperties()', 'clone.getProperties()', 'p.getRepositories()', 'p.getRepositories().size()', 'clone.getRepositories()', 'clone.getRepositories().size()', 'p.getPluginRepositories()', 'p.getPluginRepositories().size()', 'clone.getPluginRepositories()', 'clone.getPluginRepositories().size()']]})
+<Production Methods>
+Error
+[]
+defaultdict(<class 'list'>, {'testShouldAppendRecessivePluginGroupIds': [['dominant.addPluginGroup("org.apache.maven.plugins")', 'dominant.addPluginGroup("org.codehaus.modello")', 'recessive.addPluginGroup("org.codehaus.plexus")', 'SettingsUtils.merge(dominant,recessive,Settings.GLOBAL_LEVEL)', 'dominant.getPluginGroups()', 'pluginGroups.size()', 'pluginGroups.get(0)', 'pluginGroups.get(1)', 'pluginGroups.get(2)']], 'testRoundTripProfiles': [['p.setId("id"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'a.setActiveByDefault(entropy.nextBoolean())', 'entropy.nextBoolean()', 'a.setJdk("jdk"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'af.setExists("exists"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'af.setMissing("missing"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'a.setFile(af)', 'ap.setName("name"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'ap.setValue("value"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'a.setProperty(ap)', 'ao.setArch("arch"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'ao.setFamily("family"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'ao.setName("name"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'ao.setVersion("version"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'a.setOs(ao)', 'p.setActivation(a)', 'entropy.nextInt(10)', 'props.setProperty("name"+Long.toHexString(entropy.nextLong()),"value"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'p.setProperties(props)', 'entropy.nextInt(3)', 'r.setId("id"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'r.setName("name"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'r.setUrl("url"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'repos.add(r)', 'p.setRepositories(repos)', 'entropy.nextInt(3)', 'r.setId("id"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'r.setName("name"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'r.setUrl("url"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'repos.add(r)', 'p.setPluginRepositories(repos)', 'SettingsUtils.convertToSettingsProfile(SettingsUtils.convertFromSettingsProfile(p))', 'SettingsUtils.convertFromSettingsProfile(p)', 'p.getId()', 'clone.getId()', 'p.getActivation()', 'p.getActivation().getJdk()', 'clone.getActivation()', 'clone.getActivation().getJdk()', 'p.getActivation()', 'p.getActivation().getFile()', 'p.getActivation().getFile().getExists()', 'clone.getActivation()', 'clone.getActivation().getFile()', 'clone.getActivation().getFile().getExists()', 'p.getActivation()', 'p.getActivation().getFile()', 'p.getActivation().getFile().getMissing()', 'clone.getActivation()', 'clone.getActivation().getFile()', 'clone.getActivation().getFile().getMissing()', 'p.getActivation()', 'p.getActivation().getProperty()', 'p.getActivation().getProperty().getName()', 'clone.getActivation()', 'clone.getActivation().getProperty()', 'clone.getActivation().getProperty().getName()', 'p.getActivation()', 'p.getActivation().getProperty()', 'p.getActivation().getProperty().getValue()', 'clone.getActivation()', 'clone.getActivation().getProperty()', 'clone.getActivation().getProperty().getValue()', 'p.getActivation()', 'p.getActivation().getOs()', 'p.getActivation().getOs().getArch()', 'clone.getActivation()', 'clone.getActivation().getOs()', 'clone.getActivation().getOs().getArch()', 'p.getActivation()', 'p.getActivation().getOs()', 'p.getActivation().getOs().getFamily()', 'clone.getActivation()', 'clone.getActivation().getOs()', 'clone.getActivation().getOs().getFamily()', 'p.getActivation()', 'p.getActivation().getOs()', 'p.getActivation().getOs().getName()', 'clone.getActivation()', 'clone.getActivation().getOs()', 'clone.getActivation().getOs().getName()', 'p.getActivation()', 'p.getActivation().getOs()', 'p.getActivation().getOs().getVersion()', 'clone.getActivation()', 'clone.getActivation().getOs()', 'clone.getActivation().getOs().getVersion()', 'p.getProperties()', 'clone.getProperties()', 'p.getRepositories()', 'p.getRepositories().size()', 'clone.getRepositories()', 'clone.getRepositories().size()', 'p.getPluginRepositories()', 'p.getPluginRepositories().size()', 'clone.getPluginRepositories()', 'clone.getPluginRepositories().size()']]})
+<Production Methods>
+Error
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 3/Nicad_maven5.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 4/Nicad_maven7.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 5/Nicad_maven9.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 6/Nicad_maven11.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 7/Nicad_maven13.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 8/Nicad_maven15.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 9/Nicad_maven17.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 10/Nicad_maven19.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 11/Nicad_maven21.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 12/Nicad_maven23.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 13/Nicad_maven25.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 14/Nicad_maven27.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 15/Nicad_maven29.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 16/Nicad_maven31.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 17/Nicad_maven33.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 18/Nicad_maven35.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 19/Nicad_maven37.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 20/Nicad_maven39.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 21/Nicad_maven41.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 22/Nicad_maven43.javaÅ® No Test
+['get']
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 23/Nicad_maven45.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 24/Nicad_maven47.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 25/Nicad_maven49.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 26/Nicad_maven51.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 27/Nicad_maven53.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 28/Nicad_maven55.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 29/Nicad_maven57.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 30/Nicad_maven59.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 31/Nicad_maven61.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 32/Nicad_maven63.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 33/Nicad_maven65.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 34/Nicad_maven67.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 35/Nicad_maven69.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 36/Nicad_maven71.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 37/Nicad_maven73.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 38/Nicad_maven75.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 39/Nicad_maven77.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 40/Nicad_maven79.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 41/Nicad_maven81.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 42/Nicad_maven83.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 43/Nicad_maven85.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 44/Nicad_maven87.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 45/Nicad_maven89.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 46/Nicad_maven91.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 47/Nicad_maven93.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 48/Nicad_maven95.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 49/Nicad_maven97.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 50/Nicad_maven99.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 51/Nicad_maven101.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 52/Nicad_maven103.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 53/Nicad_maven105.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 54/Nicad_maven107.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 55/Nicad_maven109.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 56/Nicad_maven111.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 57/Nicad_maven113.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 58/Nicad_maven115.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 59/Nicad_maven117.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 60/Nicad_maven119.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 61/Nicad_maven121.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 62/Nicad_maven123.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 63/Nicad_maven125.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 64/Nicad_maven127.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 65/Nicad_maven129.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 66/Nicad_maven131.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 67/Nicad_maven133.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 68/Nicad_maven135.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 69/Nicad_maven137.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 70/Nicad_maven139.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 71/Nicad_maven141.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 72/Nicad_maven143.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 73/Nicad_maven145.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 74/Nicad_maven147.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 75/Nicad_maven149.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 76/Nicad_maven151.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 77/Nicad_maven153.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 78/Nicad_maven155.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 79/Nicad_maven157.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 80/Nicad_maven159.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 81/Nicad_maven161.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 82/Nicad_maven163.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 83/Nicad_maven165.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 84/Nicad_maven167.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 85/Nicad_maven169.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 86/Nicad_maven171.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 87/Nicad_maven173.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 88/Nicad_maven175.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 89/Nicad_maven177.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 90/Nicad_maven179.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 91/Nicad_maven181.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 92/Nicad_maven183.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 93/Nicad_maven185.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 94/Nicad_maven187.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 95/Nicad_maven189.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 96/Nicad_maven191.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 97/Nicad_maven193.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 98/Nicad_maven195.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 99/Nicad_maven197.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 100/Nicad_maven199.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 101/Nicad_maven201.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 102/Nicad_maven203.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 103/Nicad_maven205.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 104/Nicad_maven207.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 105/Nicad_maven209.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 106/Nicad_maven211.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 107/Nicad_maven213.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 108/Nicad_maven215.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 109/Nicad_maven217.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 110/Nicad_maven219.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 111/Nicad_maven221.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 112/Nicad_maven223.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 113/Nicad_maven225.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 114/Nicad_maven227.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 115/Nicad_maven229.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 116/Nicad_maven231.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 117/Nicad_maven233.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 118/Nicad_maven235.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 119/Nicad_maven237.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 120/Nicad_maven239.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 121/Nicad_maven241.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 122/Nicad_maven243.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 123/Nicad_maven245.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 124/Nicad_maven247.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 125/Nicad_maven249.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 126/Nicad_maven251.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 127/Nicad_maven253.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 128/Nicad_maven255.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 129/Nicad_maven257.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 130/Nicad_maven259.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 131/Nicad_maven261.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 132/Nicad_maven263.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 133/Nicad_maven265.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 134/Nicad_maven267.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 135/Nicad_maven269.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 136/Nicad_maven271.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 137/Nicad_maven273.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 138/Nicad_maven275.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 139/Nicad_maven277.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 140/Nicad_maven279.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 141/Nicad_maven281.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 142/Nicad_maven283.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 143/Nicad_maven285.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 144/Nicad_maven287.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 145/Nicad_maven289.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 146/Nicad_maven291.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 147/Nicad_maven293.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 148/Nicad_maven295.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 149/Nicad_maven297.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 150/Nicad_maven299.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 151/Nicad_maven301.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 152/Nicad_maven303.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 153/Nicad_maven305.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 154/Nicad_maven307.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 155/Nicad_maven309.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 156/Nicad_maven311.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 157/Nicad_maven313.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 158/Nicad_maven315.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 159/Nicad_maven317.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 160/Nicad_maven319.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 161/Nicad_maven321.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 162/Nicad_maven323.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 163/Nicad_maven325.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 164/Nicad_maven327.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 165/Nicad_maven329.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 166/Nicad_maven331.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 167/Nicad_maven333.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 168/Nicad_maven335.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 169/Nicad_maven337.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 170/Nicad_maven339.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 171/Nicad_maven341.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 172/Nicad_maven343.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 173/Nicad_maven345.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 174/Nicad_maven347.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 175/Nicad_maven349.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 176/Nicad_maven351.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 177/Nicad_maven353.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 178/Nicad_maven355.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 179/Nicad_maven357.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 180/Nicad_maven359.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 181/Nicad_maven361.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 182/Nicad_maven363.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 183/Nicad_maven365.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 184/Nicad_maven367.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 185/Nicad_maven369.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 186/Nicad_maven371.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 187/Nicad_maven373.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 188/Nicad_maven375.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 189/Nicad_maven377.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 190/Nicad_maven379.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 191/Nicad_maven381.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 192/Nicad_maven383.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 193/Nicad_maven385.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 194/Nicad_maven387.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 195/Nicad_maven389.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 196/Nicad_maven391.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 197/Nicad_maven393.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 198/Nicad_maven395.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 199/Nicad_maven397.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 200/Nicad_maven399.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 201/Nicad_maven401.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 202/Nicad_maven403.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 203/Nicad_maven405.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 204/Nicad_maven407.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 205/Nicad_maven409.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 206/Nicad_maven411.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 207/Nicad_maven413.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 208/Nicad_maven415.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 209/Nicad_maven417.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 210/Nicad_maven419.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 211/Nicad_maven421.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 212/Nicad_maven423.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 213/Nicad_maven425.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 214/Nicad_maven427.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 215/Nicad_maven429.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 216/Nicad_maven431.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 217/Nicad_maven433.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 218/Nicad_maven435.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 219/Nicad_maven437.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 220/Nicad_maven439.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 221/Nicad_maven441.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 222/Nicad_maven443.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 223/Nicad_maven445.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 224/Nicad_maven447.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 225/Nicad_maven449.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 226/Nicad_maven451.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 227/Nicad_maven453.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 228/Nicad_maven455.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 229/Nicad_maven457.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 230/Nicad_maven459.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 231/Nicad_maven461.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 232/Nicad_maven463.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 233/Nicad_maven465.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 234/Nicad_maven467.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 235/Nicad_maven469.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 236/Nicad_maven471.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 237/Nicad_maven473.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 238/Nicad_maven475.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 239/Nicad_maven477.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 240/Nicad_maven479.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 241/Nicad_maven481.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 242/Nicad_maven483.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 243/Nicad_maven485.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 244/Nicad_maven487.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 245/Nicad_maven489.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 246/Nicad_maven491.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 247/Nicad_maven493.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 248/Nicad_maven495.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 249/Nicad_maven497.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 250/Nicad_maven499.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 251/Nicad_maven501.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 252/Nicad_maven503.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 253/Nicad_maven505.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 254/Nicad_maven507.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 255/Nicad_maven509.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 256/Nicad_maven511.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 257/Nicad_maven513.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 258/Nicad_maven515.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 259/Nicad_maven517.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 260/Nicad_maven519.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 261/Nicad_maven521.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 262/Nicad_maven523.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 263/Nicad_maven525.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 264/Nicad_maven527.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 265/Nicad_maven529.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 266/Nicad_maven531.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 267/Nicad_maven533.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 268/Nicad_maven535.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 269/Nicad_maven537.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 270/Nicad_maven539.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 271/Nicad_maven541.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 272/Nicad_maven543.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 273/Nicad_maven545.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 274/Nicad_maven547.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 275/Nicad_maven549.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 276/Nicad_maven551.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 277/Nicad_maven553.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 278/Nicad_maven555.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 279/Nicad_maven557.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 280/Nicad_maven559.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 281/Nicad_maven561.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 282/Nicad_maven563.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 283/Nicad_maven565.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 284/Nicad_maven567.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 285/Nicad_maven569.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 286/Nicad_maven571.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 287/Nicad_maven573.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 288/Nicad_maven575.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 289/Nicad_maven577.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 290/Nicad_maven579.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 291/Nicad_maven581.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 292/Nicad_maven583.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 293/Nicad_maven585.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 294/Nicad_maven587.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 295/Nicad_maven589.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 296/Nicad_maven591.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 297/Nicad_maven593.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 298/Nicad_maven595.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 299/Nicad_maven597.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 300/Nicad_maven599.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 301/Nicad_maven601.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 302/Nicad_maven603.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 303/Nicad_maven605.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 304/Nicad_maven607.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 305/Nicad_maven609.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 306/Nicad_maven611.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 307/Nicad_maven613.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 308/Nicad_maven615.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 309/Nicad_maven617.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 310/Nicad_maven619.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 311/Nicad_maven621.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 312/Nicad_maven623.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 313/Nicad_maven625.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 314/Nicad_maven627.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 315/Nicad_maven629.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 316/Nicad_maven631.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 317/Nicad_maven633.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 318/Nicad_maven635.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 319/Nicad_maven637.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 320/Nicad_maven639.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 321/Nicad_maven641.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 322/Nicad_maven643.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 323/Nicad_maven645.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 324/Nicad_maven647.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 325/Nicad_maven649.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 326/Nicad_maven651.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 327/Nicad_maven653.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 328/Nicad_maven655.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 329/Nicad_maven657.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 330/Nicad_maven659.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 331/Nicad_maven661.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 332/Nicad_maven663.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 333/Nicad_maven665.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 334/Nicad_maven667.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 335/Nicad_maven669.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 336/Nicad_maven671.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 337/Nicad_maven673.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 338/Nicad_maven675.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 339/Nicad_maven677.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 340/Nicad_maven679.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 341/Nicad_maven681.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 342/Nicad_maven683.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 343/Nicad_maven685.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 344/Nicad_maven687.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 345/Nicad_maven689.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 346/Nicad_maven691.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 347/Nicad_maven693.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 348/Nicad_maven695.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 349/Nicad_maven697.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 350/Nicad_maven699.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 351/Nicad_maven701.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 352/Nicad_maven703.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 353/Nicad_maven705.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 354/Nicad_maven707.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 355/Nicad_maven709.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 356/Nicad_maven711.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 357/Nicad_maven713.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 358/Nicad_maven715.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 359/Nicad_maven717.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 360/Nicad_maven719.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 361/Nicad_maven721.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 362/Nicad_maven723.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 363/Nicad_maven725.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 364/Nicad_maven727.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 365/Nicad_maven729.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 366/Nicad_maven731.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 367/Nicad_maven733.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 368/Nicad_maven735.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 369/Nicad_maven737.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 370/Nicad_maven739.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 371/Nicad_maven741.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 372/Nicad_maven743.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 373/Nicad_maven745.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 374/Nicad_maven747.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 375/Nicad_maven749.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 376/Nicad_maven751.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 377/Nicad_maven753.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 378/Nicad_maven755.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 379/Nicad_maven757.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 380/Nicad_maven759.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 381/Nicad_maven761.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 382/Nicad_maven763.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 383/Nicad_maven765.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 384/Nicad_maven767.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 385/Nicad_maven769.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 386/Nicad_maven771.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 387/Nicad_maven773.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 388/Nicad_maven775.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 389/Nicad_maven777.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 390/Nicad_maven779.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 391/Nicad_maven781.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 392/Nicad_maven783.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 393/Nicad_maven785.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 394/Nicad_maven787.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 395/Nicad_maven789.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 396/Nicad_maven791.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 397/Nicad_maven793.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 398/Nicad_maven795.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 399/Nicad_maven797.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 400/Nicad_maven799.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 401/Nicad_maven801.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 402/Nicad_maven803.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 403/Nicad_maven805.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 404/Nicad_maven807.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 405/Nicad_maven809.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 406/Nicad_maven811.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 407/Nicad_maven813.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 408/Nicad_maven815.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 409/Nicad_maven817.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 410/Nicad_maven819.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 411/Nicad_maven821.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 412/Nicad_maven823.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 413/Nicad_maven825.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 414/Nicad_maven827.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 415/Nicad_maven829.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 416/Nicad_maven831.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 417/Nicad_maven833.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 418/Nicad_maven835.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 419/Nicad_maven837.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 420/Nicad_maven839.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 421/Nicad_maven841.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 422/Nicad_maven843.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 423/Nicad_maven845.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 424/Nicad_maven847.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 425/Nicad_maven849.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 426/Nicad_maven851.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 427/Nicad_maven853.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 428/Nicad_maven855.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 429/Nicad_maven857.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 430/Nicad_maven859.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 431/Nicad_maven861.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 432/Nicad_maven863.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 433/Nicad_maven865.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 434/Nicad_maven867.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 435/Nicad_maven869.javaÅ® No Test
+defaultdict(<class 'list'>, {'setUp': [['super.setUp()', 'lookup(RepositorySystem.class)']], 'tearDown': [['super.tearDown()']], 'testCacheKey': [['repositorySystem.createArtifact("testGroup","testArtifact","1.2.3","jar")', 'repositorySystem.createDefaultLocalRepository()', 'repositorySystem.createDefaultRemoteRepository()', 'a1.setDependencyFilter(newExcludesArtifactFilter(Arrays.asList("foo")))', 'Arrays.asList("foo")', 'repositorySystem.createArtifact("testGroup","testArtifact","1.2.3","jar")', 'repositorySystem.createDefaultLocalRepository()', 'repositorySystem.createDefaultRemoteRepository()', 'a2.setDependencyFilter(newExcludesArtifactFilter(Arrays.asList("foo")))', 'Arrays.asList("foo")', 'Collections.singletonList(rr1)', 'Collections.singletonList(rr2)', 'k1.hashCode()', 'k2.hashCode()']]})
+[]
+defaultdict(<class 'list'>, {'testShouldAppendRecessivePluginGroupIds': [['dominant.addPluginGroup("org.apache.maven.plugins")', 'dominant.addPluginGroup("org.codehaus.modello")', 'recessive.addPluginGroup("org.codehaus.plexus")', 'SettingsUtils.merge(dominant,recessive,Settings.GLOBAL_LEVEL)', 'dominant.getPluginGroups()', 'pluginGroups.size()', 'pluginGroups.get(0)', 'pluginGroups.get(1)', 'pluginGroups.get(2)']], 'testRoundTripProfiles': [['p.setId("id"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'a.setActiveByDefault(entropy.nextBoolean())', 'entropy.nextBoolean()', 'a.setJdk("jdk"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'af.setExists("exists"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'af.setMissing("missing"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'a.setFile(af)', 'ap.setName("name"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'ap.setValue("value"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'a.setProperty(ap)', 'ao.setArch("arch"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'ao.setFamily("family"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'ao.setName("name"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'ao.setVersion("version"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'a.setOs(ao)', 'p.setActivation(a)', 'entropy.nextInt(10)', 'props.setProperty("name"+Long.toHexString(entropy.nextLong()),"value"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'p.setProperties(props)', 'entropy.nextInt(3)', 'r.setId("id"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'r.setName("name"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'r.setUrl("url"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'repos.add(r)', 'p.setRepositories(repos)', 'entropy.nextInt(3)', 'r.setId("id"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'r.setName("name"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'r.setUrl("url"+Long.toHexString(entropy.nextLong()))', 'Long.toHexString(entropy.nextLong())', 'entropy.nextLong()', 'repos.add(r)', 'p.setPluginRepositories(repos)', 'SettingsUtils.convertToSettingsProfile(SettingsUtils.convertFromSettingsProfile(p))', 'SettingsUtils.convertFromSettingsProfile(p)', 'p.getId()', 'clone.getId()', 'p.getActivation()', 'p.getActivation().getJdk()', 'clone.getActivation()', 'clone.getActivation().getJdk()', 'p.getActivation()', 'p.getActivation().getFile()', 'p.getActivation().getFile().getExists()', 'clone.getActivation()', 'clone.getActivation().getFile()', 'clone.getActivation().getFile().getExists()', 'p.getActivation()', 'p.getActivation().getFile()', 'p.getActivation().getFile().getMissing()', 'clone.getActivation()', 'clone.getActivation().getFile()', 'clone.getActivation().getFile().getMissing()', 'p.getActivation()', 'p.getActivation().getProperty()', 'p.getActivation().getProperty().getName()', 'clone.getActivation()', 'clone.getActivation().getProperty()', 'clone.getActivation().getProperty().getName()', 'p.getActivation()', 'p.getActivation().getProperty()', 'p.getActivation().getProperty().getValue()', 'clone.getActivation()', 'clone.getActivation().getProperty()', 'clone.getActivation().getProperty().getValue()', 'p.getActivation()', 'p.getActivation().getOs()', 'p.getActivation().getOs().getArch()', 'clone.getActivation()', 'clone.getActivation().getOs()', 'clone.getActivation().getOs().getArch()', 'p.getActivation()', 'p.getActivation().getOs()', 'p.getActivation().getOs().getFamily()', 'clone.getActivation()', 'clone.getActivation().getOs()', 'clone.getActivation().getOs().getFamily()', 'p.getActivation()', 'p.getActivation().getOs()', 'p.getActivation().getOs().getName()', 'clone.getActivation()', 'clone.getActivation().getOs()', 'clone.getActivation().getOs().getName()', 'p.getActivation()', 'p.getActivation().getOs()', 'p.getActivation().getOs().getVersion()', 'clone.getActivation()', 'clone.getActivation().getOs()', 'clone.getActivation().getOs().getVersion()', 'p.getProperties()', 'clone.getProperties()', 'p.getRepositories()', 'p.getRepositories().size()', 'clone.getRepositories()', 'clone.getRepositories().size()', 'p.getPluginRepositories()', 'p.getPluginRepositories().size()', 'clone.getPluginRepositories()', 'clone.getPluginRepositories().size()']]})
+<Production Methods>
+Error
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 2/Nicad_maven3.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 3/Nicad_maven5.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 4/Nicad_maven7.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 5/Nicad_maven9.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 6/Nicad_maven11.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 7/Nicad_maven13.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 8/Nicad_maven15.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 9/Nicad_maven17.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 10/Nicad_maven19.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 11/Nicad_maven21.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 12/Nicad_maven23.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 13/Nicad_maven25.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 14/Nicad_maven27.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 15/Nicad_maven29.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 16/Nicad_maven31.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 17/Nicad_maven33.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 18/Nicad_maven35.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 19/Nicad_maven37.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 20/Nicad_maven39.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 21/Nicad_maven41.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 22/Nicad_maven43.javaÅ® No Test
+['get']
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 23/Nicad_maven45.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 24/Nicad_maven47.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 25/Nicad_maven49.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 26/Nicad_maven51.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 27/Nicad_maven53.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 28/Nicad_maven55.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 29/Nicad_maven57.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 30/Nicad_maven59.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 31/Nicad_maven61.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 32/Nicad_maven63.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 33/Nicad_maven65.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 34/Nicad_maven67.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 35/Nicad_maven69.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 36/Nicad_maven71.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 37/Nicad_maven73.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 38/Nicad_maven75.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 39/Nicad_maven77.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 40/Nicad_maven79.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 41/Nicad_maven81.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 42/Nicad_maven83.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 43/Nicad_maven85.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 44/Nicad_maven87.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 45/Nicad_maven89.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 46/Nicad_maven91.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 47/Nicad_maven93.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 48/Nicad_maven95.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 49/Nicad_maven97.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 50/Nicad_maven99.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 51/Nicad_maven101.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 52/Nicad_maven103.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 53/Nicad_maven105.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 54/Nicad_maven107.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 55/Nicad_maven109.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 56/Nicad_maven111.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 57/Nicad_maven113.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 58/Nicad_maven115.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 59/Nicad_maven117.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 60/Nicad_maven119.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 61/Nicad_maven121.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 62/Nicad_maven123.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 63/Nicad_maven125.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 64/Nicad_maven127.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 65/Nicad_maven129.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 66/Nicad_maven131.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 67/Nicad_maven133.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 68/Nicad_maven135.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 69/Nicad_maven137.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 70/Nicad_maven139.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 71/Nicad_maven141.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 72/Nicad_maven143.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 73/Nicad_maven145.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 74/Nicad_maven147.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 75/Nicad_maven149.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 76/Nicad_maven151.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 77/Nicad_maven153.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 78/Nicad_maven155.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 79/Nicad_maven157.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 80/Nicad_maven159.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 81/Nicad_maven161.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 82/Nicad_maven163.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 83/Nicad_maven165.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 84/Nicad_maven167.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 85/Nicad_maven169.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 86/Nicad_maven171.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 87/Nicad_maven173.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 88/Nicad_maven175.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 89/Nicad_maven177.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 90/Nicad_maven179.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 91/Nicad_maven181.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 92/Nicad_maven183.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 93/Nicad_maven185.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 94/Nicad_maven187.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 95/Nicad_maven189.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 96/Nicad_maven191.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 97/Nicad_maven193.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 98/Nicad_maven195.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 99/Nicad_maven197.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 100/Nicad_maven199.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 101/Nicad_maven201.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 102/Nicad_maven203.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 103/Nicad_maven205.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 104/Nicad_maven207.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 105/Nicad_maven209.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 106/Nicad_maven211.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 107/Nicad_maven213.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 108/Nicad_maven215.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 109/Nicad_maven217.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 110/Nicad_maven219.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 111/Nicad_maven221.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 112/Nicad_maven223.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 113/Nicad_maven225.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 114/Nicad_maven227.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 115/Nicad_maven229.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 116/Nicad_maven231.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 117/Nicad_maven233.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 118/Nicad_maven235.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 119/Nicad_maven237.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 120/Nicad_maven239.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 121/Nicad_maven241.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 122/Nicad_maven243.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 123/Nicad_maven245.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 124/Nicad_maven247.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 125/Nicad_maven249.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 126/Nicad_maven251.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 127/Nicad_maven253.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 128/Nicad_maven255.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 129/Nicad_maven257.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 130/Nicad_maven259.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 131/Nicad_maven261.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 132/Nicad_maven263.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 133/Nicad_maven265.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 134/Nicad_maven267.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 135/Nicad_maven269.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 136/Nicad_maven271.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 137/Nicad_maven273.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 138/Nicad_maven275.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 139/Nicad_maven277.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 140/Nicad_maven279.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 141/Nicad_maven281.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 142/Nicad_maven283.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 143/Nicad_maven285.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 144/Nicad_maven287.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 145/Nicad_maven289.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 146/Nicad_maven291.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 147/Nicad_maven293.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 148/Nicad_maven295.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 149/Nicad_maven297.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 150/Nicad_maven299.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 151/Nicad_maven301.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 152/Nicad_maven303.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 153/Nicad_maven305.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 154/Nicad_maven307.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 155/Nicad_maven309.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 156/Nicad_maven311.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 157/Nicad_maven313.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 158/Nicad_maven315.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 159/Nicad_maven317.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 160/Nicad_maven319.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 161/Nicad_maven321.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 162/Nicad_maven323.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 163/Nicad_maven325.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 164/Nicad_maven327.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 165/Nicad_maven329.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 166/Nicad_maven331.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 167/Nicad_maven333.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 168/Nicad_maven335.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 169/Nicad_maven337.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 170/Nicad_maven339.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 171/Nicad_maven341.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 172/Nicad_maven343.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 173/Nicad_maven345.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 174/Nicad_maven347.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 175/Nicad_maven349.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 176/Nicad_maven351.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 177/Nicad_maven353.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 178/Nicad_maven355.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 179/Nicad_maven357.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 180/Nicad_maven359.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 181/Nicad_maven361.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 182/Nicad_maven363.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 183/Nicad_maven365.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 184/Nicad_maven367.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 185/Nicad_maven369.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 186/Nicad_maven371.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 187/Nicad_maven373.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 188/Nicad_maven375.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 189/Nicad_maven377.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 190/Nicad_maven379.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 191/Nicad_maven381.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 192/Nicad_maven383.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 193/Nicad_maven385.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 194/Nicad_maven387.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 195/Nicad_maven389.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 196/Nicad_maven391.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 197/Nicad_maven393.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 198/Nicad_maven395.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 199/Nicad_maven397.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 200/Nicad_maven399.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 201/Nicad_maven401.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 202/Nicad_maven403.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 203/Nicad_maven405.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 204/Nicad_maven407.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 205/Nicad_maven409.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 206/Nicad_maven411.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 207/Nicad_maven413.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 208/Nicad_maven415.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 209/Nicad_maven417.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 210/Nicad_maven419.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 211/Nicad_maven421.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 212/Nicad_maven423.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 213/Nicad_maven425.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 214/Nicad_maven427.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 215/Nicad_maven429.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 216/Nicad_maven431.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 217/Nicad_maven433.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 218/Nicad_maven435.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 219/Nicad_maven437.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 220/Nicad_maven439.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 221/Nicad_maven441.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 222/Nicad_maven443.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 223/Nicad_maven445.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 224/Nicad_maven447.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 225/Nicad_maven449.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 226/Nicad_maven451.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 227/Nicad_maven453.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 228/Nicad_maven455.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 229/Nicad_maven457.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 230/Nicad_maven459.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 231/Nicad_maven461.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 232/Nicad_maven463.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 233/Nicad_maven465.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 234/Nicad_maven467.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 235/Nicad_maven469.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 236/Nicad_maven471.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 237/Nicad_maven473.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 238/Nicad_maven475.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 239/Nicad_maven477.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 240/Nicad_maven479.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 241/Nicad_maven481.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 242/Nicad_maven483.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 243/Nicad_maven485.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 244/Nicad_maven487.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 245/Nicad_maven489.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 246/Nicad_maven491.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 247/Nicad_maven493.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 248/Nicad_maven495.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 249/Nicad_maven497.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 250/Nicad_maven499.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 251/Nicad_maven501.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 252/Nicad_maven503.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 253/Nicad_maven505.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 254/Nicad_maven507.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 255/Nicad_maven509.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 256/Nicad_maven511.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 257/Nicad_maven513.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 258/Nicad_maven515.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 259/Nicad_maven517.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 260/Nicad_maven519.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 261/Nicad_maven521.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 262/Nicad_maven523.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 263/Nicad_maven525.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 264/Nicad_maven527.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 265/Nicad_maven529.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 266/Nicad_maven531.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 267/Nicad_maven533.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 268/Nicad_maven535.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 269/Nicad_maven537.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 270/Nicad_maven539.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 271/Nicad_maven541.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 272/Nicad_maven543.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 273/Nicad_maven545.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 274/Nicad_maven547.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 275/Nicad_maven549.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 276/Nicad_maven551.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 277/Nicad_maven553.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 278/Nicad_maven555.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 279/Nicad_maven557.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 280/Nicad_maven559.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 281/Nicad_maven561.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 282/Nicad_maven563.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 283/Nicad_maven565.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 284/Nicad_maven567.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 285/Nicad_maven569.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 286/Nicad_maven571.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 287/Nicad_maven573.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 288/Nicad_maven575.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 289/Nicad_maven577.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 290/Nicad_maven579.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 291/Nicad_maven581.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 292/Nicad_maven583.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 293/Nicad_maven585.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 294/Nicad_maven587.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 295/Nicad_maven589.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 296/Nicad_maven591.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 297/Nicad_maven593.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 298/Nicad_maven595.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 299/Nicad_maven597.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 300/Nicad_maven599.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 301/Nicad_maven601.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 302/Nicad_maven603.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 303/Nicad_maven605.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 304/Nicad_maven607.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 305/Nicad_maven609.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 306/Nicad_maven611.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 307/Nicad_maven613.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 308/Nicad_maven615.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 309/Nicad_maven617.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 310/Nicad_maven619.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 311/Nicad_maven621.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 312/Nicad_maven623.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 313/Nicad_maven625.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 314/Nicad_maven627.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 315/Nicad_maven629.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 316/Nicad_maven631.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 317/Nicad_maven633.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 318/Nicad_maven635.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 319/Nicad_maven637.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 320/Nicad_maven639.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 321/Nicad_maven641.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 322/Nicad_maven643.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 323/Nicad_maven645.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 324/Nicad_maven647.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 325/Nicad_maven649.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 326/Nicad_maven651.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 327/Nicad_maven653.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 328/Nicad_maven655.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 329/Nicad_maven657.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 330/Nicad_maven659.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 331/Nicad_maven661.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 332/Nicad_maven663.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 333/Nicad_maven665.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 334/Nicad_maven667.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 335/Nicad_maven669.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 336/Nicad_maven671.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 337/Nicad_maven673.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 338/Nicad_maven675.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 339/Nicad_maven677.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 340/Nicad_maven679.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 341/Nicad_maven681.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 342/Nicad_maven683.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 343/Nicad_maven685.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 344/Nicad_maven687.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 345/Nicad_maven689.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 346/Nicad_maven691.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 347/Nicad_maven693.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 348/Nicad_maven695.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 349/Nicad_maven697.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 350/Nicad_maven699.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 351/Nicad_maven701.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 352/Nicad_maven703.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 353/Nicad_maven705.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 354/Nicad_maven707.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 355/Nicad_maven709.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 356/Nicad_maven711.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 357/Nicad_maven713.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 358/Nicad_maven715.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 359/Nicad_maven717.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 360/Nicad_maven719.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 361/Nicad_maven721.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 362/Nicad_maven723.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 363/Nicad_maven725.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 364/Nicad_maven727.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 365/Nicad_maven729.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 366/Nicad_maven731.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 367/Nicad_maven733.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 368/Nicad_maven735.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 369/Nicad_maven737.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 370/Nicad_maven739.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 371/Nicad_maven741.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 372/Nicad_maven743.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 373/Nicad_maven745.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 374/Nicad_maven747.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 375/Nicad_maven749.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 376/Nicad_maven751.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 377/Nicad_maven753.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 378/Nicad_maven755.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 379/Nicad_maven757.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 380/Nicad_maven759.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 381/Nicad_maven761.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 382/Nicad_maven763.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 383/Nicad_maven765.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 384/Nicad_maven767.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 385/Nicad_maven769.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 386/Nicad_maven771.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 387/Nicad_maven773.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 388/Nicad_maven775.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 389/Nicad_maven777.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 390/Nicad_maven779.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 391/Nicad_maven781.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 392/Nicad_maven783.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 393/Nicad_maven785.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 394/Nicad_maven787.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 395/Nicad_maven789.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 396/Nicad_maven791.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 397/Nicad_maven793.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 398/Nicad_maven795.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 399/Nicad_maven797.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 400/Nicad_maven799.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 401/Nicad_maven801.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 402/Nicad_maven803.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 403/Nicad_maven805.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 404/Nicad_maven807.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 405/Nicad_maven809.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 406/Nicad_maven811.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 407/Nicad_maven813.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 408/Nicad_maven815.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 409/Nicad_maven817.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 410/Nicad_maven819.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 411/Nicad_maven821.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 412/Nicad_maven823.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 413/Nicad_maven825.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 414/Nicad_maven827.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 415/Nicad_maven829.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 416/Nicad_maven831.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 417/Nicad_maven833.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 418/Nicad_maven835.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 419/Nicad_maven837.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 420/Nicad_maven839.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 421/Nicad_maven841.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 422/Nicad_maven843.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 423/Nicad_maven845.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 424/Nicad_maven847.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 425/Nicad_maven849.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 426/Nicad_maven851.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 427/Nicad_maven853.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 428/Nicad_maven855.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 429/Nicad_maven857.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 430/Nicad_maven859.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 431/Nicad_maven861.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 432/Nicad_maven863.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 433/Nicad_maven865.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 434/Nicad_maven867.javaÅ® No Test
+[]
+C:/Users/ryosuke-ku/Desktop/Nicad_ScrapinG/NicadOutputFile_maven/Clone Pairs 435/Nicad_maven869.javaÅ® No Test
+defaultdict(<class 'list'>, {'setUp': [['super.setUp()', 'lookup(RepositorySystem.class)']], 'tearDown': [['super.tearDown()']], 'testCacheKey': [['repositorySystem.createArtifact("testGroup","testArtifact","1.2.3","jar")', 'repositorySystem.createDefaultLocalRepository()', 'repositorySystem.createDefaultRemoteRepository()', 'a1.setDependencyFilter(newExcludesArtifactFilter(Arrays.asList("foo")))', 'Arrays.asList("foo")', 'repositorySystem.createArtifact("testGroup","testArtifact","1.2.3","jar")', 'repositorySystem.createDefaultLocalRepository()', 'repositorySystem.createDefaultRemoteRepository()', 'a2.setDependencyFilter(newExcludesArtifactFilter(Arrays.asList("foo")))', 'Arrays.asList("foo")', 'Collections.singletonList(rr1)', 'Collections.singletonList(rr2)', 'k1.hashCode()', 'k2.hashCode()']]})
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+['get']
+[]
